@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
+
+    
     <title>Random Password GEN</title>
 </head>
 <body>
@@ -13,12 +15,14 @@
 
         <form action="" name="passGen">
             <input type="text" size="18" name="output">
-            <input type="button" value="Generate Password" onclick=""> <br>
+            <input type="button" value="Generate Password" onclick="populateform(this.form.length.value)"> <br>
             <strong>Password length: </strong> <input type="text" name="length" size="3" value="6">
 
 
         </form>
     </div>
     
+
+    <script src="main.js"></script>
 </body>
 </html>
